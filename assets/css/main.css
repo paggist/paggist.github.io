@@ -2666,7 +2666,26 @@ input, select, textarea {
 	#sidebar > section {
 		margin-bottom: 0;
 	}
+/* Sidebar_center */
+	#sidebar_center {
+	    padding: 0;
+	    padding-top: 72px;
+	}
 
+	#sidebar_center > hr {
+		top: 3em;
+		margin-bottom: 6em;
+	}
+
+		#sidebar_center > hr.first {
+			display: none;
+		}
+
+	#sidebar_center > section {
+		margin-bottom: 0;
+	}
+	
+	
 /* Main */
 
 	#main {
